@@ -1,0 +1,91 @@
+body{
+  background: #353535;
+  padding: 0;
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background: #222;
+  color: white;
+  font-size: 2em;
+  padding: 8px;
+}
+
+#gridc{
+  color:white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.openmatch{
+  display: grid;
+  grid-template-columns: 10vw 10vw;
+  grid-template-rows: 2em 3.5em;
+  grid-gap: 0;
+  color:white;
+}
+.completematch{
+  background-color:#232323;
+  padding: .5em;
+  display: flex;
+  margin: 1em;
+}
+.leftplayer{
+  background: #DA5555;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  padding-top: .5em;
+}
+.rightplayer{
+  background: #5E9AE9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  padding-top: .5em;
+}
+
+.leftslideout {
+  grid-area: 2 / 1;
+  display:none;
+  align-items: center;
+  justify-content: center;
+  padding: .5em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  background: #232323;
+}
+
+.rightslideout {
+  grid-area: 2 / 2;
+  display:none;
+  padding: .5em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  background: #232323;
+}
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+.amount{
+  width: 5vw;
+}
+#win{
+  background-color: #4d9e2c;
+}
+#loss{
+  background-color: #ab2920;
+}
+p{
+  color:white;
+  padding-right: 1em;
+}
